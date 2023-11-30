@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Mario Summ",
+    "username": "mariosumm",
+    "password": "123456789",
+    "email": "mariosumm@gmail.com",
+    "address": {
+      "street": "Kahilakon",
+      "barangay": "Himi",
+      "city": "Crying Buds"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Emily Laff",
+    "username": "emilylaff",
+    "password": "123456789",
+    "email": "emilylaff@gmail.com",
+    "address": { "street": "Muboon", "barangay": "Putot", "city": "Giants" }
+  },
+  {
+    "id": 3,
+    "name": "hiiiii",
+    "username": "hiii",
+    "password": "123456789",
+    "email": "hiiiii",
+    "address": { "street": "hiiiii", "barangay": "hiiii", "city": "hiiii" }
+  },
+  {
+    "id": 4,
+    "name": "Zhazted Valles",
+    "username": "ZhaztedVallesgwapo",
+    "password": "123456789",
+    "email": "vallestedetd",
+    "address": { "street": "tres", "barangay": "de", "city": "abril" }
+  },
+  {
+    "id": 5,
+    "name": "Summer Rodrigo",
+    "username": "summer",
+    "password": "114180",
+    "email": "summer@gmail.com",
+    "address": { "street": "Tres", "barangay": "De", "city": "Abril" }
+  },
+  {
+    "id": 6,
+    "name": "Summer Rodrigo",
+    "username": "summer",
+    "password": "114180",
+    "email": "summer@gmail.com",
+    "address": { "street": "Tres", "barangay": "De", "city": "Abril" }
+  },
+  {
+    "id": 7,
+    "name": "Zhazted Valles",
+    "username": "artisan",
+    "password": "114180",
+    "email": "vallestedted@gmail.com",
+    "address": { "street": "Poblacion", "barangay": "Medellin", "city": "Cebu" }
+  },
+  {
+    "id": 8,
+    "name": "Zhazted Valles",
+    "username": "artisan",
+    "password": "114180",
+    "email": "vallestedted@gmail.com",
+    "address": { "street": "Poblacion", "barangay": "Medellin", "city": "Cebu" }
+  },
+  {
+    "id": 9,
+    "name": "rich king",
+    "username": "rich",
+    "password": "$2y$10$ephtfEM.ZYOmY3jgACiD1OUismCoGrH4/oxjgJ0fCGhEnoY2YPE.G",
+    "email": "vallestedted@gmail.com",
+    "address": { "street": "Poblacion", "barangay": "Medellin", "city": "Cebu" }
+  },
+  {
+    "id": 10,
+    "name": "rich king",
+    "username": "rich",
+    "password": "$2y$10$toWzYDwhkM2ZqJu3mU/36.jwXEFo8f03U53zB3hHjtEgvszuH/zOi",
+    "email": "vallestedted@gmail.com",
+    "address": { "street": "Poblacion", "barangay": "Medellin", "city": "Cebu" }
+  },
+  {
+    "id": 11,
+    "name": "rich king",
+    "username": "rich",
+    "password": "$2y$10$JLdo97pWSPsD91X5KlMmVehcQfAriQdVBJkNHcEWMqu8wew19bvb6",
+    "email": "vallestedted@gmail.com",
+    "address": { "street": "Poblacion", "barangay": "Medellin", "city": "Cebu" }
+  },
+  {
+    "id": 12,
+    "name": "Zhazted Valles",
+    "username": "artisan_1",
+    "password": "$2y$10$ijEa8Jrrsi08nQbi8WYKkesYOR.mwEk4ZFVlQEZfUTJaoanl0csQK",
+    "email": "vallestedted@gmail.com",
+    "address": { "street": "Poblacion", "barangay": "Medellin", "city": "Cebu" }
+  },
+  {
+    "id": 13,
+    "name": "Zhazted Valles",
+    "username": "rhixin",
+    "password": "$2y$10$IHz0qwA7eXF1HqjoWEwhkOlyjVG3d/Dhr0UU0HbWHGBk.WSG6ObMC",
+    "email": "vallestedted@gmail.com",
+    "address": { "street": "Poblacion", "barangay": "Medellin", "city": "Cebu" }
+  },
+  {
+    "id": 14,
+    "name": "Zhazted Valles",
+    "username": "rhx",
+    "password": "$2y$10$eXpekeXZXqIAo9bTj5fAzecqaFBiXWFMIAwB1W5EIQX/uiK3NoeWa",
+    "email": "vallestedted@gmail.com",
+    "address": {
+      "street": "Poblacion, Medellin, Cebu",
+      "barangay": "qwqw",
+      "city": "Cebu"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Teddy Rhixin",
+    "username": "teddy",
+    "password": "$2y$10$HcTruMWlReysiStYFlHVJOTVznDt9adkLEkavjZSBDCRovADIgSlS",
+    "email": "vallestedted@gmail.com",
+    "address": {
+      "street": "Poblacion, Medellin, Cebu",
+      "barangay": "Oki",
+      "city": "Cebu"
+    }
+  }
+]

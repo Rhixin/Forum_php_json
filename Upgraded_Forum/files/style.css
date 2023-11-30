@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h5,
+p {
+  color: black;
+}
+
+h6 {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* Set a max-width if you want a limit */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0px;
+}
+
+.modal-content {
+  background-color: #772416;
+}
+
+.modal-body {
+  background-color: white;
+}
+
+.big_box {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+  background-color: #772416;
+}
+
+#log_in_btn {
+  margin-top: 10px;
+  width: 300px;
+  height: 50px;
+  background-color: #d3a223;
+  border-color: #d3a223;
+}
+
+#log_out_btn {
+  width: 100px;
+  height: 30px;
+  background-color: #d3a223;
+  border-color: #d3a223;
+  text-align: center;
+  line-height: 0px;
+  margin: 20px;
+}
+
+#post_btn {
+  background-color: #772416;
+  border-color: #772416;
+  width: 200px;
+  height: 60px;
+}
+
+#reply_btn_final {
+  background-color: #772416;
+  border-color: #772416;
+  width: 200px;
+  height: 50px;
+}
+
+#sign_up_btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 50px;
+  background-color: #d3a223;
+  border-color: #d3a223;
+}
+
+#sign_up_btn_final {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 50px;
+  background-color: #d3a223;
+  border-color: #d3a223;
+}
+
+.form-control {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #999;
+  margin-bottom: 20px;
+}
+
+#side_pic {
+  background-image: url("new_log_in_pic_side.png");
+  background-size: 300px 383px;
+  /* Set the width and height of the background image */
+  background-position: center;
+  /* Center the background image */
+  width: 300px;
+  /* Set the width of the div */
+  height: 383px;
+  /* Set the height of the div */
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #d3a223;
+  /* background-color: rgba(119, 36, 22, 0.5); */
+}
+
+.bigger_box {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 223, 0, 0.5), 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.glow-border {
+  border-radius: 10px;
+  padding: 5px;
+  background: linear-gradient(90deg, #ffd900, transparent);
+  background-size: 200% 100%;
+  background-clip: border-box;
+  color: transparent;
+  animation: glowing 4s infinite;
+}
+
+.glow-border-box {
+  order: 2px solid #00f; /* Set the initial border color */
+  border-radius: 8px; /* Add some border-radius for rounded corners */
+  padding: 10px; /* Add padding for content inside the div */
+  display: inline-block; /* Make it an inline-block to fit content width */
+  animation: glow 2s infinite alternate; /* Apply the glow animation */
+}
+
+@keyframes glow {
+  from {
+    border-color: #00f; /* Initial border color */
+    box-shadow: 0 0 10px #00f; /* Initial box shadow color */
+  }
+  to {
+    border-color: #0af; /* Glowing border color */
+    box-shadow: 0 0 20px #0af, 0 0 30px #0af; /* Glowing box shadow */
+  }
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.names_input {
+  width: 210px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.address_input {
+  width: 134px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.normal_input {
+  width: 445px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mb_new {
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#sign_up_btn_final:hover {
+  background-color: rgb(179, 138, 34);
+}
+
+#log_in_btn:hover {
+  background-color: rgb(179, 138, 34);
+}
+
+#sign_up_btn:hover {
+  background-color: rgb(179, 138, 34);
+}
+
+.home_container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0px;
+}
+
+.home_header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #772416;
+  height: 60px;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.left_header {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 680px;
+  width: 300px;
+  background-color: #d3a223;
+  overflow: hidden;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.9);
+}
+
+.own_input_box {
+  margin-left: 10px;
+  width: 90%;
+  max-height: 270px;
+  box-sizing: border-box;
+}
+
+.mb-3 {
+  width: 100%;
+}
+
+.form-label {
+  margin-left: 10px;
+}
+
+.all_posts_box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  left: 300px;
+  top: 60px;
+  width: 1105px;
+  height: auto;
+}
+
+.model_box {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 85%;
+  overflow: hidden;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  background-color: #d3a223;
+  border-radius: 20px;
+}
+
+#reply_input {
+  width: 670px;
+}
+
+.reply_area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
